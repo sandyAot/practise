@@ -1,5 +1,7 @@
 package com.example.demo;
 
-public interface reppo {
+import org.springframework.data.repository.CrudRepository;
+
+public interface reppo extends CrudRepository<model,Integer> {
 
 }
